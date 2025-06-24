@@ -6,7 +6,7 @@ from PIL import Image, ImageOps
 from pynput import keyboard
 
 # Конфигурация
-ASCII_CHARS = "@%#*+=-:. "  # Градиент от темного к светлому
+ASCII_CHARS = "@%#*+=-:. "  # Тут вы можете выбрать какие символы будут в фото
 FRAME_SIZE = (80, 40)  # Ширина x Высота в символах
 WEBCAM_MODE = False  # Режим реального времени с камеры
 
